@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)file:///C:/Users/Ultimate/portfolio.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pranavi Portfolio</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        /* Dark mode */
+        .dark-mode {
+            background-color: #121212;
+            color: #fff;
+        }
+
+        /* Navbar styles */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            border-bottom: 2px solid #007BFF; /* Bottom border */
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 18px;
+            padding: 8px;
+            border: 2px solid transparent; /* Default border */
+            transition: color 0.3s, border-color 0.3s;
+        }
+
+        /* Navbar Hover Effect */
+        nav ul li a:hover {
+            color: #ff6600;
+            border-color: #ff6600; /* Border appears on hover */
+            border-radius: 5px;
+        }
+
+        /* Project section */
+        .project {
+            display: inline-block;
+            width: 300px;
+            padding: 15px;
+            border: 2px solid #007BFF; /* Border added */
+            margin: 15px;
+            border-radius: 8px;
+            transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+        }
+
+        /* Hover effect for projects */
+        .project:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            border-color: #ff6600; /* Border changes on hover */
+        }
+
+        /* Button styling */
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: 2px solid #007BFF;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+
+        /* Button hover effect */
+        button:hover {
+            background-color: #ff6600;
+            border-color: #ff6600;
+        }
+
+        /* Image hover effect */
+        img {
+            border: 2px solid #007BFF; /* Border added */
+            border-radius: 8px;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+
+        /* Image zoom-in effect on hover */
+        img:hover {
+            transform: scale(1.1);
+            border-color: #ff6600; /* Border color changes on hover */
+        }
+
+        /* Contact form */
+        form {
+            width: 50%;
+            margin: auto;
+            padding: 20px;
+            border: 2px solid #007BFF;
+            border-radius: 10px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 2px solid #007BFF;
+            border-radius: 5px;
+        }
+
+        input:focus, textarea:focus {
+            border-color: #ff6600;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><b><u>BODA PRANAVI</u></b></h1>
+        <p><i>A passionate and motivated B.Tech student with a strong foundation in data analysis. Seeking opportunities to apply my technical skills in SQL, Python, Machine learning and Data visualization to drive impactful results.</i></p>
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/Ultimate/portfolio.html#about"><b>ABOUT ME</b></a></li><b>
+                <li><a href="file:///C:/Users/Ultimate/portfolio.html#projects"><b>PROJECT</b></a></li>
+                <li><a href="file:///C:/Users/Ultimate/portfolio.html#contact"><b>CONTACT</b></a></li>
+            </b></ul><b>
+        </b></nav><b>
+        <button id="dark-mode-toggle">🌙</button>
+    </b></header><b>
+    
+    <main>
+        <section id="about">
+            <h2>ABOUT ME </h2>
+            <img src="file:///C:/Users/Ultimate/profile.jpg" alt="Profile Picture" width="200" height="250">
+            <p><em>A passionate and motivated B.Tech student with a strong foundation in data analysis, programming, and AI applications. Seeking opportunities to apply my technical skills in Excel, Python, and Power BI to drive impactful results. Eager to contribute to projects that blend technology with real-world problem-solving, especially in the fields of data science and machine learning</em></p>
+        </section>
+        
+        <section id="project">
+            <h2>PROJECT</h2>
+            <div class="project">
+                <h3><b>Maize Disease Prediction</b></h3>
+                <p><i>Technologies: Python,  RESNET, LSTM</i></p>
+                    <em>The project develops a Maize Crop Disease Prediction System for text-based symptom analysis. It helps farmers detect diseases early, ensuring sustainable agriculture and food security in India.
+                    </em><p></p>
+                <img src="https://images.app.goo.gl/J1zBMDw1Me5ZXLZEA">
+                <img src="https://images.app.goo.gl/w1yMKHRX8Skpzjw48">
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>CONTACT</h2>
+            <p>Email: pranavinicey@gmail.com</p>
+            <p>GitHub: <a href="file:///C:/Users/Ultimate/portfolio.html#">https://github.com/Pranavi1303</a></p>
+            <p>LinkedIn: <a href="file:///C:/Users/Ultimate/portfolio.html#">https://www.linkedin.com/in/pranavi-boda-345398259/?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=android_app/</a></p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required="">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required="">
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required=""></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2025 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        const toggleButton = document.getElementById('dark-mode-toggle');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+
+</b></body></html>
